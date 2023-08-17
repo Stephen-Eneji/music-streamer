@@ -10,7 +10,8 @@ function Header() {
       <ul>
         <a href=""><li>Home</li></a>
         <a href=""><li>Gallery</li></a>
-        <a href=""><li></li></a>
+        <a href=""><li>DevInfo</li></a>
+        <a href="" className='blog-menu'><li>Blog</li></a>
         <a href=""><li></li></a>
       </ul>
       </div>

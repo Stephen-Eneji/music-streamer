@@ -1,9 +1,58 @@
 body {
-    background: radial-gradient(ellipse at center, rgb(0, 0, 0), rgb(1, 12, 74));
+    background: radial-gradient(ellipse at center, rgb(0, 0, 0), rgb(1, 12, 75));
     margin: 0;
     padding: 0;
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.Header-menu {
+    background: #fff;
+    border-bottom: 5px solid rgb(21, 11, 79);
+    display: flex;
+    justify-content:space-between;
 }
 
-.Header-menu {
-    display: inline;
+.Header-menu ul {
+    display: flex;
+}
+.Header-menu ul li {
+    padding: 10px;
+    list-style: none;
+    color: #000;
+} .Header-menu ul a { text-decoration: none; padding: 5px 10px 5px 10px;}
+
+.Header-menu ul li:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.Header-menu ul a:nth-child(4) {
+    background-color: rgb(3, 3, 199);
+}
+
+/* Main body section */
+.Mainbody {
+    display: flex;
+}
+
+.main-body {
+    background-color: white;
+    width: 75%;
+    height: 35rem;
+    padding: 20px;
+    margin: 20px;
+    overflow-x: scroll;
+}
+
+.Sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.side-bar {
+    position: fixed;
+}
+
+.gen-menu {
+    position: static;
 }
