@@ -56,3 +56,10 @@ body {
 .gen-menu {
     position: static;
 }
+
+.Header2 {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 5px solid rgb(8, 8, 167);
+    opacity: 0.6;
+}
